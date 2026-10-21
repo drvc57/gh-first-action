@@ -1,6 +1,6 @@
 
-name: First Workflow
-on: workflow_dispatch
+name: First Workflow  # Workflow name, the word name is mandatory and reserved
+on: workflow_dispatch  # manually triggering event
 jobs:
   first-job:
     runs-on: ubuntu-latest
